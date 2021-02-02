@@ -1,0 +1,11 @@
+en = input()
+ent = en.split()
+a = float (ent[0])
+b = float (ent[1])
+c = float (ent[2])
+pi = 3.14159
+print ("TRIANGULO:", "%.3f"%((a*c)/2))
+print ("CIRCULO:", "%.3f"%(pi * (c**2)))
+print ("TRAPEZIO:", "%.3f"%(((a+b)*c)/2))
+print ("QUADRADO:", "%.3f"%(b**2))
+print ("RETANGULO:", "%.3f"%(a*b))

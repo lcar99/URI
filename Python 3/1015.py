@@ -1,0 +1,10 @@
+en = input()
+en1 = input()
+ent = en.split()
+ent1 = en1.split()
+x1 = float (ent[0])
+y1 = float (ent[1])
+x2 = float (ent1[0])
+y2 = float (ent1[1])
+d = (((x2 - x1)**2) + ((y2 - y1)**2)) ** 0.5
+print ("%.4f"%d)

@@ -1,0 +1,10 @@
+a0 = input()
+a2 = input()
+a1 = a0.split()
+a3 = a2.split()
+q1 = int (a1[1])
+p1 = float (a1[2])
+q2 = int (a3[1])
+p2 = float (a3[2])
+t = q1 * p1 + q2 * p2
+print ("VALOR A PAGAR: R$", "%.2f"%t)
